@@ -10,3 +10,4 @@ Some other guides that served as inspiration for our guide (in no particular ord
 Other inspirational content:
 
 - https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/
+- http://playbook.thoughtbot.com/
