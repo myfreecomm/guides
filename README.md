@@ -2,7 +2,7 @@
 
 The guidelines below present ideas and standards for various topics, languages and tools that are used at Nexaas. By reading them you'll get an idea on how we approach software development. This is a living document so it might be good to check it regularly to see the updates. We hope this will inspire you to hack on beautiful code like we do.
 
-- [Development](/development)
+- [Style](/style)
 
 ## Contributing
 
