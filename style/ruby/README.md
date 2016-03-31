@@ -6,7 +6,12 @@ Use [this sample](/style/ruby/.rubocop.yml) file to analyze your code.
 - Avoid multiple assignments per line:
 
 ```ruby
+  # bad
   one, two = 1, 2
+
+  # good
+  one = 1
+  two = 1
 ```
 
 - Avoid explicit `return` statements.
