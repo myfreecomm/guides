@@ -1,6 +1,10 @@
 # Development guides / Ruby
 
-Use [this sample](/style/ruby/.rubocop.yml) file to analyze your code.
+We made some [modifications](/style/ruby/.rubocop.yml) to rubocop's default
+[configuration file](https://github.com/bbatsov/rubocop/blob/master/config/default.yml).
+
+Do not copy the entire rubocop config file to your project. Use the file containing 
+our [modifications](/style/ruby/.rubocop.yml).
 
 - Avoid conditional modifiers (lines that end with conditionals).
 - Avoid multiple assignments per line:
