@@ -26,4 +26,6 @@ In addition to the general guidelines below, we also have the following more det
 - Use [Unix-style line endings](http://unix.stackexchange.com/questions/23903/should-i-end-my-text-script-files-with-a-newline) (\n).
 - Use [uppercase for SQL key words and lowercase for SQL identifiers](http://www.postgresql.org/docs/9.4/static/sql-syntax-lexical.html#SQL-SYNTAX-IDENTIFIERS).
 
-**We have a [.editorconfig](/style/.editorconfig). Use it.**
+## EditorConfig
+
+We have a [.editorconfig](/style/.editorconfig). Use it.
