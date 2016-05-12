@@ -16,9 +16,17 @@
 # Uncomment the following lines to make the configuration take effect.
 
 PreCommit:
+  ALL:
+    exclude: &default_excludes
+      - "src/spec/fixtures/**/*"
+
   RuboCop:
     enabled: true
     on_warn: fail # Treat all warnings as failures
+    exclude:
+      - *default_excludes
 
   TrailingWhitespace:
     enabled: true
+    exclude:
+      - *default_excludes
