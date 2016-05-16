@@ -1,10 +1,14 @@
 AllCops:
   Exclude:
     - "src/spec/fixtures/**/*"
+    - "src/db/schema.rb"
 
 Metrics/LineLength:
   StyleGuide: "https://github.com/bbatsov/ruby-style-guide#80-character-limits"
   Max: 120
+
+Style/Alias:
+  EnforcedStyle: "prefer_alias_method"
 
 Style/AsciiComments:
   StyleGuide: "https://github.com/bbatsov/ruby-style-guide#english-comments"
