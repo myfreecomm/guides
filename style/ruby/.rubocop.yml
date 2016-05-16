@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - "src/spec/fixtures/**/*"
+    - "src/db/schema.rb"
 
 Metrics/LineLength:
   StyleGuide: "https://github.com/bbatsov/ruby-style-guide#80-character-limits"
