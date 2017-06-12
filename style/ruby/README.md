@@ -5,10 +5,17 @@
 We made some [modifications](/style/ruby/.rubocop.yml) to rubocop's default
 [config file](https://github.com/bbatsov/rubocop/blob/master/config/default.yml).
 
-Do not copy the entire rubocop config file to your project. Use the file containing 
+Do not copy the entire rubocop config file to your project. Use the file containing
 our [modifications](/style/ruby/.rubocop.yml).
 
 ## [Overcommit](https://github.com/brigade/overcommit)
+
+We use Overcommit to manage git hooks and run some sort of checking into our code before commit
+and/or push code to github.
+
+## [Hound](https://houndci.com/repos)
+
+We use Hound to automatically review GitHub pull requests for style guide violations
 
 We use Overcommit to manage git hooks and run some sort of checking into our code before commit
 and/or push code to github.
